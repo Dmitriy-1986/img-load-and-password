@@ -1,0 +1,42 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.img-header {
+    display: block;
+    margin: auto;
+}
+
+.img-load {
+     text-align: center;
+     font-weight: bold;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.images-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#txt {
+    width: 350px;
+    padding: 10px;
+}
+
+#txt::placeholder {
+    color: blue;
+    font-weight: bold;
+    font-size: 12px;
+}
+#submit {
+    padding: 10px;
+}
+
+#valid {
+    color: red;
+    text-align: center;
+}
